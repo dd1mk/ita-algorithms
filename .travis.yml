@@ -1,8 +1,6 @@
 language: node_js
 node_js:
-  - "7"
-before_install:
-  - npm install
+  - "10.13.0"
 script: 
   - npm test
   - node_modules\.bin\eslint algorithms.js
